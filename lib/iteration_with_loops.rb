@@ -9,12 +9,11 @@ def find_min_in_nested_arrays(src)
     while j < src[i].count do
       if src[i][j] < min_element
         min_element = src[i][j]
+      end
       j += 1
     end
     arr.push(min_element)
     i += 1
   end
   arr
-end
-
 end
